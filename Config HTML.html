@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Config HTML Github</title>
+</head>
+<body>
+    <p>Enter Code</p>
+    <br>
+    <input id="input" type="text" placeholder="Enter Code">
+    <br>
+    <button onclick="run()">OK</button>
+    <p id="p"></p>
+
+    <script>
+        function run() {
+            const textInput = document.getElementById("input");
+            if (textInput.value === "14825510820164") {
+                const pText = document.getElementById("p").innerText = "Verified Config HTML Github";
+            } else {
+                const pText = document.getElementById("p").innerText = "Error";
+            }
+        }
+    </script>
+</body>
+</html>
