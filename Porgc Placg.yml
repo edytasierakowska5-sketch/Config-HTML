@@ -1,1 +1,16 @@
+Data:
+- Value_snp4280: "a4n8Q4g+at$kkk.ndtp1848"
+- Desc_ndp: "?dcript+#sss+at.ndp15Desc0017"
+- List_Enabled: true
+- Sdrg_ndft_Enabled: false
+- Host_Enabled: true
 
+List:
+- Enabled: true
+- DataEnabled: true
+- Value: "List_Enipp"
+- DataText: "DATATEXT?subjectid=true;"
+
+HostName:
+Name: "14.0.28.100:40182850"
+List: "?1.4/host"
